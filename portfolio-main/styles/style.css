@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+
+/*----------------------GERAL----------------------*/
+body{ 
+    background-color: #020f1b; 
+    color: #F6F6F6; 
+    font-family: "Poppins", sans-serif; 
+    font-weight: 400; 
+    font-style: normal; 
+    margin: 0;
+} 
+
+main{
+    height: 87vh;
+}
+
+a{ 
+    text-decoration: none;
+    color: #f6f6f6e1; 
+ 
+} 
+
+strong{ 
+    color: #22D4FD; 
+}
+
+footer{
+    background-color: #04182b;
+    height: 30vh;
+}
+
+
+/*-------------------NAVBAR---------------------*/
+header{ 
+    height: 10vh; 
+    background-color: 020f1b; 
+    margin-bottom: 30px; 
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.logo{
+    width: 12vh;
+}
+
+.menu{ 
+    height: 5vh;
+    background-color: aliceblue; 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.bmenu{ 
+    margin-right: 60px; 
+    border-radius: 50px; 
+    background-color: 020f1b; 
+    -webkit-text-fill-color: #020f1b; 
+    font-size: 1.8vh; 
+    font-weight: normal; 
+}
+
+/*-------------------STYLE HOME---------------------*/
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+
+}
+
+
+
+/*-------------------FOOTER---------------------*/
+
+.footer-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fsocials{
+    margin: 20px;
+    margin-top: 30px;
+
+}
+
+/*-------------------ANIMAÇÃO---------------------*/
+
+a:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
