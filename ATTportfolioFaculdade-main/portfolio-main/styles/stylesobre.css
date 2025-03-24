@@ -1,0 +1,229 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/*----------------------GERAL----------------------*/
+
+
+a{ 
+  text-decoration: none;
+  color: #f6f6f6e1; 
+
+} 
+
+footer{
+  background-color: #04182b;
+  height: 10%;
+}
+
+body{ 
+  background-color: #020f1b; 
+  color: #F6F6F6; 
+  font-family: "Poppins", sans-serif; 
+  font-weight: 400; 
+  font-style: normal; 
+  margin: 0;
+} 
+
+main{
+  height: 87vh;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.infos{
+  padding-top: 13%;
+  font-size: 18px;
+  margin-left: 25Vh;
+  font-weight: bold;
+}
+
+ul{
+  
+}
+
+
+/*-------------------NAVBAR---------------------*/
+header{ 
+  height: 10vh; 
+  background-color: 020f1b; 
+  margin-bottom: 30px; 
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+.logo{
+  width: 12vh;
+}
+
+.menu{ 
+  height: 5vh;
+  background-color: aliceblue; 
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+.bmenu{ 
+  margin-right: 60px; 
+  border-radius: 50px; 
+  background-color: 020f1b; 
+  -webkit-text-fill-color: #020f1b; 
+  font-size: 110%; 
+  font-weight: normal; 
+}
+
+div{
+  height: 30%;
+}
+
+/*------------- TEMPLATE FRAME IMG -------------*/
+
+figure.snip1113 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 350px;
+    width: 100%;
+    background: #ffffff00;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin-left: 120%;
+    margin-top: 35%;
+  }
+  
+  figure.snip1113 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  figure.snip1113 img {
+    max-width: 65%;
+    margin: 40px auto;
+    display: block;
+    position: relative;
+    border: 3px solid #ffffff;
+    padding: 15px 15px 85px 15px;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  
+  figure.snip1113 figcaption {
+    position: absolute;
+    height: 120px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: block;
+  }
+  
+  figure.snip1113 h3 {
+    background-color: #ffffff00;
+    color: #000000;
+    font-size: 1.7em;
+    width: 100%;
+    padding: 5px 12px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  figure.snip1113 h3 span {
+    font-weight: 800;
+  }
+  
+  figure.snip1113 h4 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    opacity: 0.6;
+    font-size: 1.1em;
+  }
+  
+  figure.snip1113.blue img {
+    border-color: #b1bfc7;
+  }
+  
+  figure.snip1113.blue h3,
+  figure.snip1113.blue h4 {
+    color: #ffffff;
+  }
+  
+  
+  figure.snip1113.navy img {
+    border-color: #b1bfc7;
+  }
+  
+  figure.snip1113.navy h3,
+  figure.snip1113.navy h4 {
+    color: #ffffff;
+  }
+
+/*------------------- NEON ---------------------*/
+
+span {
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #b8b9c5,
+      0 0 10px #ccccd8,
+      0 0 21px #fff,
+      0 0 42px rgb(0, 225, 255),
+      0 0 82px rgb(0, 225, 255),
+      0 0 92px rgb(0, 247, 255),
+      0 0 102px rgb(0, 217, 255),
+      0 0 151px rgb(0, 60, 255);
+  }
+
+
+
+/*-------------------FOOTER---------------------*/
+
+.footer-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fsocials{
+    margin: 20px;
+    margin-top: 30px;
+
+}
+
+/*-------------------ANIMAÇÃO---------------------*/
+
+a:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+/*----------------------------- RESPONSIVIDADE -----------------------*/
+
+@media only screen and (max-width: 768px) {
+  figure.snip1113 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 350px;
+    width: 100%;
+    background: #ffffff00;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin-left: 0%;
+    margin-top: 35%;
+  }
+
+}
